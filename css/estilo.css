@@ -1,0 +1,28 @@
+body{
+    background: #FFF !important;
+    font-size: 18px !important;
+}
+.menu{
+    background: #0288d1;
+    -webkit-box-shadow: 0px 10px 13px -10px rgba(0,0,0,0.39);
+    -moz-box-shadow: 0px 10px 13px -10px rgba(0,0,0,0.39);
+    box-shadow: 0px 10px 13px -10px rgba(0,0,0,0.39);
+}
+.white{
+    color: white;
+}
+#side-menu{
+    margin-top: 30px;
+    padding: 0;
+    list-style: none;
+}
+#side-menu li{
+    padding-top: 30px;
+}
+.subir10{
+    margin-top: -10px;
+}
+.costado{
+    height: 93vh;
+    border-right: #0288d1 solid 5px;
+}
