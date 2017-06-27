@@ -42,18 +42,6 @@
     </div>
     <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
     <script src="js/firebase.js"></script>
-    <script>
-        salir = function(){
-            console.log('logout');
-            firebase.auth().signOut();
-            firebase.auth().onAuthStateChanged(function(firebaseUser){
-                if(firebaseUser){
-                    window.location.href = "salesystem.html"
-                }else{
-                    window.location.href = "login.php";
-                }
-            });
-        }
-    </script>
+    <script src="js/salesystem.js"></script>
 </body>
 </html>

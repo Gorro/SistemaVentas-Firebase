@@ -4,6 +4,13 @@ var app = new Vue({
         email:'',
         password:''
     },
+    created: function () {
+        firebase.auth().onAuthStateChanged(function(firebaseUser){
+            if(firebaseUser){
+                window.location.href = "salesystem.html"
+            }
+        });
+	},	
     methods: {
         ingresar: function (event) {
             event.preventDefault();
