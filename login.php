@@ -53,18 +53,7 @@
       </div>
     </div>    
     <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
-    <script>
-      // Initialize Firebase
-      var config = {
-        apiKey: "AIzaSyBLV91TBBH4uwFpFykgMfTnJqroBdOpJdE",
-        authDomain: "sistemaventas-50f96.firebaseapp.com",
-        databaseURL: "https://sistemaventas-50f96.firebaseio.com",
-        projectId: "sistemaventas-50f96",
-        storageBucket: "sistemaventas-50f96.appspot.com",
-        messagingSenderId: "266262048339"
-      };
-      firebase.initializeApp(config);
-    </script>
+    <script src="js/firebase.js"></script>
     <script src="js/jquery-2.1.3.min.js"></script>
     <script src="js/sweetalert.min.js"></script>
     <script src="js/vue.js"></script>

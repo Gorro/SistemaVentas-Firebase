@@ -14,6 +14,13 @@ var app = new Vue({
                 .then(
                     function(user){
                         console.log(user)
+                        firebase.auth().onAuthStateChanged(function(firebaseUser){
+                            if(firebaseUser){
+                                window.location.href = "salesystem.html"
+                            }else{
+                                window.location.href = "login.php";
+                            }
+                        });
                     },
                     function(error) {
                         var errorCode = error.code;
