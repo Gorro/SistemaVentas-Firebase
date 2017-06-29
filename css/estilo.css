@@ -32,3 +32,21 @@ body{
 .logout{
     cursor: pointer;
 }
+.flexible{
+    width: 100%;
+    height: 93vh;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.caja{
+    background: greenyellow;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 100px;
+}
